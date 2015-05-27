@@ -3,7 +3,9 @@ Basic Spark Streaming application
 
 # Introduction
 
-   The purpose of this application is to provide a basic skeleton of a Spark Streaming application that can be used to further develop streaming programs. The code is based on the NetworkWordCount example provided with the Spark distribution.
+   The purpose of this application is to provide a basic skeleton of a Spark Streaming application that can be used to
+   further develop streaming programs.
+   The code is based on the NetworkWordCount example provided with the Spark distribution.
 
    The program reads plain text data from a socket and computes a group-by operation on the input data.
 
@@ -11,7 +13,9 @@ Basic Spark Streaming application
 
    To use this example, perform the following steps:
 
-   * Launch *nc* to open a output socket on port 9999. You can write data through the terminal, and it will be send through the socket. Make sure the socket is ready before launching the streaming application. 
+   * Launch *nc* to open a output socket on port 9999.
+   You can write data through the terminal, and it will be send through the socket.
+   Make sure the socket is ready before launching the streaming application.
 
     nc -lk 9999
 
